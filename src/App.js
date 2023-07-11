@@ -33,7 +33,10 @@ function App() {
         <AppProvider>
           <Routes>
             <Route element={<ProtectedRoutes />}>
-              <Route path="/" element={<Home />} />
+              <Route
+                path="https://aliahmarawan8.github.io/dowellChat"
+                element={<Home />}
+              />
               <Route path="customerSupport" element={<CustomerSupportPage />} />
             </Route>
           </Routes>
